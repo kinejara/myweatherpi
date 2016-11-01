@@ -22,7 +22,7 @@ case "$OUTPUT" in
     case "$OUTPUT" in
      *AM*)
      echo "TURN ON LIGHT"
-     hyperion-remote --color gray --priority 1
+     hyperion-remote --color gray --priority 2
      ;;
     esac
     ;;
@@ -30,7 +30,7 @@ case "$OUTPUT" in
     case "$OUTPUT" in
      *AM*)
      echo "TURN OFF LIGHT"
-     hyperion-remote --color black --priority 2
+     hyperion-remote --color black --priority 1
      ;;
     esac
     ;;
